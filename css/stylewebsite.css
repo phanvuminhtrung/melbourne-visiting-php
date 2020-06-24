@@ -1,0 +1,234 @@
+
+body {
+  background-image: url("prism.png");
+}
+
+table, th, td  {
+  border: 1px groove rgba(230, 215, 215, 0.432);
+  margin: auto;
+}
+
+th {
+  background-color: rgb(136, 136, 136);
+}
+
+tr:hover {background-color: rgb(99, 95, 95);}
+
+/*HOME DISPLAY*/
+
+.headhome {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.home {
+  display: grid;
+  height: 1200px;
+  align-content: flex-start;
+  grid-template-columns: 420px 420px 420px;
+  grid-gap: 10px;
+  padding: 25px;
+}
+
+.home > div {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 18px;
+  color: white;
+
+}
+/*CLASS SELECTOR*/
+
+
+
+/*ID SELECTOR */
+#notborder {
+  border-right: none;
+}
+
+#navform {
+  position: relative;
+  top: 10px;
+  left: 5%;
+}
+
+#inputsearch {
+  border: 1px solid #ffffff;
+}
+
+
+#buttonsearch {
+  background-color: white;
+  color: black;
+  border: 2px solid #ffffff;
+  border: #ffffff;
+  font-size: 11px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#buttonsearch:hover{
+  background-color: rgb(36, 164, 238);
+}
+
+#return {
+  padding: 8px;
+  text-align: left;
+  color: #fc1d8c;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 18px;
+  position: relative;
+  left: 1.75%;
+}
+
+#link {
+  color: rgb(36, 164, 238);
+}
+
+#tableblock {
+  margin-top: 35px;
+}
+
+#table1 {
+  padding: 8px;
+  text-align: center;
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+}
+#table2 {
+  padding: 8px;
+  text-align: center;
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 15px;
+}
+
+#firstdetailblock {
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#seconddetailblock {
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 40px;
+  width: 800px;
+  height: 120px;
+}
+
+#headdetail {
+  margin-left: 20px;
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+#locationdetail {
+  margin-left: 20px;
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+#descriptiondetail{
+  margin-left: 20px;
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#formblock {
+  margin: auto;
+  width: 500px;
+  height: 750px;
+  margin-top: 20px;
+  background-image: url("cover1.png");
+  border-radius: 8px;
+}
+
+#formblock2 {
+  margin: auto;
+  width: 700px;
+  height: 400px;
+  margin-top: 20px;
+  background-image: url("cover1.png");
+  border-radius: 8px;
+}
+
+#formblock3 {
+  margin: auto;
+  width: 500px;
+  height: 160px;
+  margin-top: 20px;
+  background-image: url("cover1.png");
+  border-radius: 8px;
+}
+
+#fontform{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 14px;
+  padding: 20px;
+}
+
+#headingform2 {
+  color: #fdfdfd;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+
+
+/*navigation*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 95, 95);
+  }
+
+  
+  li {
+    float: left;
+    border-right: 1px solid white;
+  }
+
+  li:last-child {
+    border-right: none;
+    border-left: 1px solid white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: rgb(65, 230, 202);
+  }
+  .sticky {
+    position: sticky;
+  }
